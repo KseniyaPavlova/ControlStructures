@@ -3,7 +3,7 @@
 using namespace std;
 
 //#define SQUARE
-//#define TRIANGLE1
+#define TRIANGLE1
 //#define TRIANGLE2
 
 //define TRIANGLE_1
@@ -200,5 +200,5 @@ void main()
 			cout << (j == n ? "\n" : (i + j) % 2 == 0 ? "+ " : "- ");
 	cout << endl;
 #endif // TERNARY_1
-
+}
 
